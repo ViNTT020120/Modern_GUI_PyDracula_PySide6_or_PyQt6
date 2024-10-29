@@ -1,7 +1,7 @@
 # ///////////////////////////////////////////////////////////////
 #
 # BY: WANDERSON M.PIMENTA
-# PROJECT MADE WITH: Qt Designer and PySide6
+# PROJECT MADE WITH: Qt Designer and PyQt5
 # V: 1.0.0
 #
 # This project can be used freely for all uses, as long as they maintain the
@@ -13,18 +13,18 @@
 # https://doc.qt.io/qtforpython/licenses.html
 #
 # ///////////////////////////////////////////////////////////////
-from PySide6.QtCore import *
-from PySide6.QtGui import *
-from PySide6.QtWidgets import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
 # GUI FILE
-from . ui_main import Ui_MainWindow
+from .ui_main import Ui_MainWindow
 
 # APP SETTINGS
-from . app_settings import Settings
+from .app_settings import Settings
 
 # IMPORT FUNCTIONS
-from . ui_functions import *
+from .ui_functions import *
 
 # APP FUNCTIONS
-from . app_functions import *
+from .app_functions import *

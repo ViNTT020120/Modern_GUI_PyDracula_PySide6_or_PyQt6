@@ -3,7 +3,7 @@
 # Created by: The Resource Compiler for Qt version 6.0.2
 # WARNING! All changes made in this file will be lost!
 
-from PySide6 import QtCore
+from PyQt5 import QtCore
 
 qt_resource_data = b"\
 \x00\x00\x07b\
@@ -34141,10 +34141,13 @@ qt_resource_struct = b"\
 \x00\x00\x01v+M\xdd\xa0\
 "
 
+
 def qInitResources():
     QtCore.qRegisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)
 
+
 def qCleanupResources():
     QtCore.qUnregisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)
+
 
 qInitResources()
